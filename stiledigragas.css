@@ -1,0 +1,41 @@
+.center-me {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome {
+    font-size: 50px;
+    color:rgb(205, 164, 52);
+}
+
+.margine {
+    margin-left: 150px;
+}
+
+body {
+    background-color:rgb(0, 127, 255)
+}
+
+.allineamento
+{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.mod-testo {
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 6px solid rgb(205, 164, 52);
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+    height: 280px;
+    vertical-align:middle;
+  }
+
+.mod-testo-2 {
+    margin-top: 400px;
+    margin-left: 10px;
+}
