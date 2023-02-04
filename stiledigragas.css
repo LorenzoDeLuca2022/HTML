@@ -3,6 +3,7 @@
     justify-content: center;
 }
 
+
 .welcome {
     font-size: 50px;
     color:rgb(205, 164, 52);
@@ -12,20 +13,26 @@
     margin-left: 150px;
 }
 
+
+
+
 body {
     background-image:url(Gragas.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
     
 }
 
 .allineamento
 {
-    display: flex;
+    display:flex;
     justify-content: flex-start;
     
 }
+
+
+
 
 .mod-testo {
     letter-spacing: -1px;
