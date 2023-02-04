@@ -4,6 +4,9 @@
 <head>
     <title>Gragas, il provocatore delle masse</title>
     <link rel="stylesheet" href="stiledigragas.css">
+    <style> #image {
+        display: none;
+    }</style>
 </head>
 
 <body>
@@ -26,7 +29,24 @@
         <h3 class="mod-testo-2"> "Ricorda, Gragas è sempre la risposta giusta. Se non lo è, stai sbagliando domanda" -Gandhi
         </h3>
     </div>
-    
+    <img id="image" src="Gragas_sommozzatore.jpg" />
+    <p class="color-abilità">I Famosi Aspetti di Gragas</p>
+    <ul>
+        <button type="button"
+        onclick="show()" id="button">
+        Aspetto 1
+    </button>
+    <script>
+        function show() {
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image')
+                    .style.display = "block"; 
+                    document.getElementById('button')
+                    .style.display = "none";
+          }
+    </script>
+
 
 </body>
 
