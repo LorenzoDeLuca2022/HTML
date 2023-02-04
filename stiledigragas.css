@@ -49,4 +49,32 @@ body {
 .color-abilità {
     color: white;
     font-size: 50px;
+    margin-left: 20px;
 }
+
+.color-abilità-2 {
+    color:white;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: cursive;
+}
+
+
+.g-skins-1 {
+    width: 500px;
+    height: 400px;
+    border: 6px solid rgb(205, 164, 52);
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.g-skins-2 {
+    width: 500px;
+    height: 400px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border: 6px solid rgb(205, 164, 52);
+}
+
+
+
