@@ -33,6 +33,7 @@
     margin-left: 100px;
     margin-top: 100px;
     border: 4px solid rgb(205, 164, 52);
+    border-radius: 3%;
     padding: 8px 8px 8px 8px;
     width: 400px;
     height: 295px;
@@ -111,7 +112,7 @@ background-image:url(Gragas.jpg);
     margin-right: 5px;
     justify-content: center;
     border-radius: 5%;
-    border: 4px solid silver;;
+    border: 4px solid silver;
 }
 
 .ability-g {
@@ -125,5 +126,10 @@ background-image:url(Gragas.jpg);
     margin-left: 30px;
     font-family: cursive;
     display:inline;
+    
+}
+
+.space {
+    margin-left: 30px;
     
 }
